@@ -25,9 +25,10 @@ const RepairDeviceModal = ({ showModal, closeModal }) => {
                 size="lg"
                 aria-labelledby="contained-modal-title-vcenter"
                 centered
+                backdrop="static"
                 show={showModal} onHide={closeModal}
             >
-                <Modal.Header closeButton>
+                <Modal.Header  closeButton>
                     <Modal.Title id="contained-modal-title-vcenter">
                         Repair My Product
                     </Modal.Title>

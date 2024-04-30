@@ -48,9 +48,9 @@ const modelName = [
 ]
 
 const pickupService = [
-    {id:1, service:"SHARAF DG SERVICE CENTER", extra_price:"0.00AED", img:"https://www.dghelp.com/wp-content/uploads/2019/01/visitstore.png"},
-    {id:1, service:"MY NEAREST DG STORE",extra_price:"0.00AED",  img:"https://www.dghelp.com/wp-content/uploads/2019/01/dropoff2.png"},
-    {id:1, service:"PLEASE COLLECT IT FROM MY HOME",extra_price:"49.00AED",  img:"https://www.dghelp.com/wp-content/uploads/2019/01/delivery2.png"},
+    {id:1, service:"SERVICE CENTER", extra_price:"0.00AED", img:"https://www.dghelp.com/wp-content/uploads/2019/01/visitstore.png"},
+    {id:1, service:"MY NEAREST STORE",extra_price:"0.00AED",  img:"https://www.dghelp.com/wp-content/uploads/2019/01/dropoff2.png"},
+    {id:1, service:"COLLECT IT FROM MY HOME",extra_price:"49.00AED",  img:"https://www.dghelp.com/wp-content/uploads/2019/01/delivery2.png"},
 ]
 
 const repairingItems = [
