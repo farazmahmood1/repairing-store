@@ -1,0 +1,32 @@
+.border-styles {
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition: border-color 0.2s ease;
+    cursor: pointer;
+}
+
+.border-styles:hover {
+    border: 1px solid #f26522;
+    border-radius: 10px;
+}
+
+.active-border {
+    border: 1px solid #f26522 !important;
+}
+
+.tick-icon {
+    position: absolute;
+    top: -12px;
+    right: -7px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #f26522;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tick-icon i {
+    color: white;
+}

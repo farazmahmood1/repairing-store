@@ -1,0 +1,127 @@
+header {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+header .header-top {
+    background-color: #000000;
+    color: #fff;
+}
+
+header .header-top .cont-det li {
+    float: left;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+header .header-top .social-link {
+    float: right;
+}
+
+header .header-top .social-link li {
+    float: left;
+    padding: 10px 15px;
+    font-size: 0.8rem;
+    color: #fff !important;
+}
+
+header .header-top .social-link li a {
+    color: #fff !important;
+}
+
+header .header-bottom .logo img {
+    margin-top: 34px;
+}
+
+@media screen and (max-width: 767px) {
+    header .header-bottom .logo img {
+        max-width: 250px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    header .header-bottom .logo img {
+        max-width: 220px;
+    }
+}
+
+header .header-bottom .contact ul {
+    float: right;
+}
+
+header .header-bottom .contact ul li {
+    float: left;
+}
+
+header .header-bottom .contact .cont-ro {
+    display: flex;
+    padding: 10px;
+}
+
+header .header-bottom .contact .cont-ro .ico {
+    padding: 10px 5px;
+    margin: auto;
+}
+
+header .header-bottom .contact .cont-ro .ico i {
+    font-size: 1.5rem;
+}
+
+header .header-bottom .contact .cont-ro .det {
+    padding: 10px 15px;
+}
+
+header .header-bottom .contact .cont-ro .det p {
+    font-size: 0.85rem;
+}
+
+header .header-bottom .contact .cont-ro .det b {
+    font-size: 0.9rem;
+    color: #f26522;
+}
+
+header .header-bottom .contact .cont-ro .btn-danger {
+    margin-top: 12px;
+}
+
+header .header-bottom .nav-part ul {
+    float: right;
+}
+
+@media screen and (max-width: 767px) {
+    header .header-bottom .nav-part ul {
+        float: left;
+        width: 100%;
+    }
+}
+
+header .header-bottom .nav-part ul li {
+    float: left;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 811px) {
+    header .header-bottom .nav-part ul li {
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header .header-bottom .nav-part ul li {
+        float: none;
+        width: 100%;
+        border-bottom: 1px solid #cccccc94;
+    }
+}
+
+header .header-bottom .nav-part ul li .sub-pages {
+    position: absolute;
+    display: none;
+}
+
+.small-menu {
+    float: right;
+    margin-top: 12px;
+    font-size: 2rem;
+    color: #f26522;
+}

@@ -5613,6 +5613,47 @@ button.close {
   color: #fff;
   text-align: center;
 }
+
+.form-select {
+  width:"100%";
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/* Style the select element when focused */
+.form-select:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(0, 123, 255, .25);
+}
+
+/* Style the select element on hover */
+.form-select:hover {
+  border-color: #b8c2cc;
+}
+
+/* Style the select element when disabled */
+.form-select:disabled {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+
+/* Style the select element's dropdown menu */
+.form-select::-ms-expand {
+  display: none;
+}
+
+/* Style the select element's options */
+.form-select option {
+  padding: 0.5rem 1rem;
+}
+
 .align-baseline {
   vertical-align: baseline !important;
 }
