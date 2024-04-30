@@ -146,7 +146,19 @@ const Hero = () => {
                     </div>
 
                     {/* </div> */}
-                    {
+                    
+
+
+
+
+                </div>
+
+                {
+                    showModal === true ? <RepairDeviceModal showModal={showModal} closeModal={closeModal} /> : null
+                }
+            </div>
+
+            {
                         screenWidth < 768 ? (
                             <>
                                 <div className='mx-auto card-services'>
@@ -178,16 +190,6 @@ const Hero = () => {
                             </>
                         ) : null
                     }
-
-
-
-
-                </div>
-
-                {
-                    showModal === true ? <RepairDeviceModal showModal={showModal} closeModal={closeModal} /> : null
-                }
-            </div>
         </div>
     )
 }
